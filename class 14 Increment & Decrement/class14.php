@@ -6,7 +6,12 @@
     // Increment operator is used to increase the value of a variable by one.
     // There are two types of increment operators:
     
-    // postfix increment operator
+    /* ========================= 
+      Postfix  operator
+    ========================= */
+    
+    echo "<h3>Postfix increment & Decrement operator</h3>";
+
     $_amount = 10;
     
     // Postfix Increment Return kore old value ++
@@ -30,7 +35,7 @@
     // Prefix potome ++ return kore new value dei
     // Prefix Increment Return kore new value ++ 
     echo "<br>";
-    echo "<br>";
+    echo "<h3>Prefix increment & Decrement operator</h3>";
     $_amount2 = 15;
 
     // Prefix Increment Return kore new value ++
