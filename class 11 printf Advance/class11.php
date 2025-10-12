@@ -49,12 +49,7 @@
    printf ('%2$s %1$s <br>', $name, $age); 
 
    printf ('My Name Is : %1$s <br> My Age Is : %2$d <br> I Live In : %3$s <br> Am I Married : %4$s <br> Do I Have Children : %5$s', 
-         ucwords($name), 
-         $age, 
-         COUNTRY, 
-         IS_MARRIED ? 'Yes' : 'No', 
-         CHILDREN ?? 'No Data Found'
-   );
+            ucwords($name), $age, COUNTRY, IS_MARRIED ? 'Yes' : 'No', CHILDREN ?? 'No Data Found' );
 
    echo "<br>";
    echo "<br>";

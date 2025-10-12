@@ -16,7 +16,7 @@
     echo $greeting; // Output: Hello World
 
     // Note: Concatenation operator (.) and Concatenation Assignment operator (.=) sudhu string er sathe kaj kore.
-    // Jodi apni number er sathe concatenation korte chan, tahole prothome number ke string e convert korte hobe.
+    // Jodi number er sathe concatenation korti, tahole prothome number ke string e convert korte hobe.
     $age = 25;
     $ageString = "I am " . (string)$age . " years old.";
     echo "<br>" . $ageString; // Output: I am 25 years old.
