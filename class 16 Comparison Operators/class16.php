@@ -1,6 +1,6 @@
 <?php
    
-    echo "<h1>Class 15 'Comparison Operators'</h1> <br>";
+    echo "<h1>Class 16 'Comparison Operators'</h1> <br>";
 
     // Comparison Operators in PHP
     // ==  Equal
