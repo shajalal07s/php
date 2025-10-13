@@ -99,5 +99,25 @@
     var_dump($c !== $d); // akane true / Karon akane c hocce 10 and d hocce "10" ja c er soman na tai true
     echo "<br>";
 
+    echo "<h2>Example of Comparison Operators Spaceship Operator</h2>"; 
+    // spaceship operator
+
+    $x = 50;
+    $y = 30;
+
+    // spaceship operator
+    // aita check kore prothom variable er value ditiyo variable er value theke boro kina jodi bro hoy tahole 1 return korbe,
+    // jodi choto hoy tahole -1 return korbe, jodi soman hoy tahole 0 return korbe
+
+    var_dump($x <=> $y); // akane 1 return korbe / Karon akane x hocce 50 and y hocce 30 ja x er boro tai 1 return korbe
+    echo "<br>";
+
+    $t=3;
+    $r=8;
+
+    // spaceship operator
+    var_dump($t <=> $r); // akane -1 return korbe / Karon akane t hocce 3 and r hocce 8 ja t er choto tai -1 return korbe
+    echo "<br>";
+
     
 ?>
