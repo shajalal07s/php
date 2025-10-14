@@ -41,7 +41,68 @@
         echo "<br> $num is odd number";
     }
 
+    echo "<h3>Practice 14-10-25</h3>";
+    $_ammount = 500;
 
+    // Gaterthen
 
+    if (  $_ammount >= 501 ) {
+        echo "<br>" . $_ammount."Amount is High";
+    }else {
+        echo "<br> Amount is Lower";
+    }
+
+    // Lessthen
+
+    $_my_sallary = 10000;
+
+    if ( $_my_sallary < 9999 ) {
+        echo "<br> Ami Job Korbo Na";
+    }else {
+        echo "<br> Ami Job Korbo";
+    }
+
+    // Gaterten Equal To
+
+    $_price = 120;
+    $_product = "Clearman";
+
+    if ( $_price >= 120  &&  $_product >= "Clearmen" ) {
+        echo "<br> Your product buy sussesfully";
+    }else {
+        echo "<br> Your product buy not yet";
+    }
+
+    // Less then
+
+    $_my_age = 24;
+    $_my_name = "Shajalal";
+
+    if ( $_my_age <= 23 && $_my_name == "Shajalal" ){
+        echo "<br> That is vail ";
+        // var_dump($_my_age);
+    }else {
+        echo "<br> That is not vail";
+    }
+
+    // Not Eqaul
+
+    $_name = "Imarn";
+
+    if ( $_name != "Imarn" ) {
+        echo $_name ." <br> That my name";
+    }else {
+        echo $_name ." <br> is not my name";
+    }
+
+    // Module 
+
+    $_number = 13;
+
+    if ( $_number % 2 == 0 ) {
+        echo "<br> This is evan number";
+    }else {
+        echo "<br > this a odd number";
+    }
 
 ?>
